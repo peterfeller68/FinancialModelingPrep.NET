@@ -26,5 +26,9 @@
         /// https://financialmodelingprep.com/developer/docs/pricing
         /// </summary>
         public int MaxAPICallsPerMinute { get; set; } = 300;
+
+        public bool EnableApiCallLogging { get; set; }
+
+        public string ApiCallLogStorageConnectionString { get; set; } = string.Empty;
     }
 }

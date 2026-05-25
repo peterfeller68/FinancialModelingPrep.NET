@@ -40,6 +40,7 @@
 	</ItemGroup>
 	
 	<ItemGroup>
+		<PackageReference Include="Azure.Data.Tables" Version="12.11.0" />
 		<PackageReference Include="Bert.RateLimiters" Version="1.0.15" />
 		<PackageReference Include="MinVer" Version="6.0.0">
 			<PrivateAssets>all</PrivateAssets>

@@ -162,7 +162,7 @@ namespace MatthiWare.FinancialModelingPrep.Core.Http
 
             try
             {
-                var table = new TableClient(options.ApiCallLogStorageConnectionString, "apiLoge");
+                var table = new TableClient(options.ApiCallLogStorageConnectionString, "apiLogs");
                 await table.CreateIfNotExistsAsync();
 
                 var endpoint = RedactApiKey(requestUrl);
